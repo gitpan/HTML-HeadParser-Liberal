@@ -1,0 +1,75 @@
+{
+   "abstract" : "More Liberal HTML Head Section Parsing",
+   "author" : [
+      "Daisuke Maki <lestrrat>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.4.2",
+   "license" : "perl_5",
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTML-HeadParser-Liberal",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.2"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "B::Deparse" : "0",
+            "HTML::HeadParser" : "== 3.69",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "HTML::HeadParser::Liberal" : {
+         "file" : "lib/HTML/HeadParser/Liberal.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/lestrrat/p5-HTML-HeadParser-Liberal/issues"
+      },
+      "homepage" : "https://github.com/lestrrat/p5-HTML-HeadParser-Liberal",
+      "repository" : {
+         "url" : "git://github.com/lestrrat/p5-HTML-HeadParser-Liberal.git",
+         "web" : "https://github.com/lestrrat/p5-HTML-HeadParser-Liberal"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Daisuke Maki <lestrrat+github@gmail.com>"
+   ]
+}
